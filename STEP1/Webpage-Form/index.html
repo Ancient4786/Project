@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Webpage Form</title>
+  </head>
+  <body>
+    <main>
+      <h1>Survey Form</h1>
+      <form action="" id="form">
+        <div class="form-control">
+          <label for="name" id="label-name"> Name </label>
+          <input type="text" name="" id="name" placeholder="Enter Your Name" />
+        </div>
+        <div class="form-control">
+          <label for="email" id="label-email">Email</label>
+          <input
+            type="text"
+            name=""
+            id="email"
+            placeholder="Enter Your Email"
+          />
+        </div>
+        <div class="form-control">
+          <label for="age" id="label-age">Age</label>
+          <input type="number" name="" id="age" placeholder="Enter your age" />
+        </div>
+        <div class="form-color">
+          <label for="role" id="label-role">
+            which option best describe you??
+          </label>
+          <select name="role" id="role">
+            <option value="student">Student</option>
+            <option value="Intern">Intern</option>
+            <option value="work">Work Professional</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-control">
+          <label for="sex" id="label-sex">Sex</label>
+          <select name="sex" id="sex">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">other</option>
+          </select>
+        </div>
+        <div class="form-control">
+          <label
+            >Languages and Frameworks known
+            <small>(Check all that apply)</small>
+          </label>
+          <!-- Input Type Checkbox -->
+          <label for="inp-1"><input type="checkbox" name="inp" id="" />C</label>
+          <label for="inp-2"
+            ><input type="checkbox" name="inp" id="" />C++</label
+          >
+          <label for="inp-3"
+            ><input type="checkbox" name="inp" id="" />C#</label
+          >
+          <label for="inp-4"
+            ><input type="checkbox" name="inp" id="" />Java</label
+          >
+          <label for="inp-5"
+            ><input type="checkbox" name="inp" id="" />Python</label
+          >
+          <label for="inp-6"
+            ><input type="checkbox" name="inp" id="" />Javascript</label
+          >
+          <label for="inp-7"
+            ><input type="checkbox" name="inp" id="" />React</label
+          >
+          <label for="inp-8"
+            ><input type="checkbox" name="inp" id="" />Angular</label
+          >
+          <label for="inp-9"
+            ><input type="checkbox" name="inp" id="" />Django</label
+          >
+          <label for="inp-10"
+            ><input type="checkbox" name="inp" id="" />Spring</label
+          >
+        </div>
+        <div class="form-control">
+          <label for="comment"> Any comments or suggestions </label>
+
+          <!-- multi-line text input control -->
+          <textarea
+            name="comment"
+            id="comment"
+            placeholder="Enter your comment here"
+          >
+          </textarea>
+        </div>
+        <button type="submit" value="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
